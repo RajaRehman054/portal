@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["php", "phpPackages.composer", "nginx", "libmysqlclient", "phpExtensions.pgsql"]
+
+[phases.install]
+cmds = ["composer install --ignore-platform-reqs"]
+
+[phases.build]
+cmds = ["composer install --no-dev --optimize-autoloader"]
+
+[start]
+cmd = "chmod +x railway-start.sh && ./railway-start.sh" 
