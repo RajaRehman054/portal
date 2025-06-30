@@ -41,7 +41,7 @@ For file uploads, use cloud storage:
 
 ### A. Connect to Vercel
 1. Go to [Vercel.com](https://vercel.com/)
-2. Sign up/Login with GitHub
+2. Sign up/Login with GitHub a
 3. Click **"New Project"**
 4. Import your GitHub repository
 5. Select the `job_portal` repository
@@ -162,4 +162,4 @@ Temporarily set `APP_DEBUG=true` to see detailed error messages.
 ## Support
 - [Vercel Documentation](https://vercel.com/docs)
 - [Laravel Documentation](https://laravel.com/docs)
-- [Vercel Community](https://github.com/vercel/vercel/discussions) 
+- [Vercel Community](https://github.com/vercel/vercel/discussions)
